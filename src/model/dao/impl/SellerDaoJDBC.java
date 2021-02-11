@@ -17,13 +17,12 @@ import model.entities.Department;
 import model.entities.Seller;
 
 public class SellerDaoJDBC implements SellerDao{
-
 	
 	private Connection conn;
 	
 	public SellerDaoJDBC(Connection conn) {
 		this.conn = conn;
-	}
+	} 
 	
 	@Override
 	public void insert(Seller obj) {
