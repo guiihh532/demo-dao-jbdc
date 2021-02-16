@@ -24,7 +24,7 @@ public class Program2 {
 		System.out.println(department);
 		
 		System.out.println("\n=== TEST 3: department UPDATE ======");
-		department = departmentDao.findById(7);
+		department = departmentDao.findById(2);
 		department.setName("Cars");
 		departmentDao.update(department);
 		System.out.println("Update completed");
